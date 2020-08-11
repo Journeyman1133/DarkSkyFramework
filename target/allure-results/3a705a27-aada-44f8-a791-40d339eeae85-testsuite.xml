@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1597181442674" stop="1597181448525" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify min and max temperatures</name>
+    <title>Verify min and max temperatures</title>
+    <test-cases>
+        <test-case start="1597181442733" stop="1597181442740" status="passed">
+            <name>Given I am on DarkSky HomePage</name>
+            <title>Given I am on DarkSky HomePage</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EACC33"/>
+                <label name="thread" value="264@EACC33.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597181444338" stop="1597181444338" status="passed">
+            <name>When I click today button on homepage</name>
+            <title>When I click today button on homepage</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EACC33"/>
+                <label name="thread" value="264@EACC33.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597181445969" stop="1597181445969" status="passed">
+            <name>And I get temperatures on homepage</name>
+            <title>And I get temperatures on homepage</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EACC33"/>
+                <label name="thread" value="264@EACC33.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597181445977" stop="1597181445977" status="passed">
+            <name>And I get min temperature on homepage</name>
+            <title>And I get min temperature on homepage</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EACC33"/>
+                <label name="thread" value="264@EACC33.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597181445984" stop="1597181445984" status="passed">
+            <name>And I get max temperature on homepage</name>
+            <title>And I get max temperature on homepage</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EACC33"/>
+                <label name="thread" value="264@EACC33.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597181446103" stop="1597181446103" status="passed">
+            <name>Then I verify min temperature on homepage</name>
+            <title>Then I verify min temperature on homepage</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EACC33"/>
+                <label name="thread" value="264@EACC33.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597181446299" stop="1597181446299" status="passed">
+            <name>Then I verify max temperature on homepage</name>
+            <title>Then I verify max temperature on homepage</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EACC33"/>
+                <label name="thread" value="264@EACC33.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify min and max temperatures"/>
+        <label name="feature" value="HomePage Feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

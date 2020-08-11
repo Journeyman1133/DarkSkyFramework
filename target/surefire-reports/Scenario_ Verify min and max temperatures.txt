@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: Verify min and max temperatures
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.358 sec - in Scenario: Verify min and max temperatures
