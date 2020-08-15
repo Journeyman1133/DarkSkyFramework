@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 22758651100,
+  "duration": 20283954400,
   "status": "passed"
 });
 formatter.background({
@@ -32,7 +32,7 @@ formatter.match({
   "location": "HomePageSD.verifyTitle()"
 });
 formatter.result({
-  "duration": 1002021900,
+  "duration": 988887300,
   "status": "passed"
 });
 formatter.scenario({
@@ -69,60 +69,36 @@ formatter.step({
   "name": "I get max temperature on homepage",
   "keyword": "And "
 });
-formatter.step({
-  "line": 12,
-  "name": "I verify min temperature on homepage",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 13,
-  "name": "I verify max temperature on homepage",
-  "keyword": "Then "
-});
 formatter.match({
   "location": "HomePageSD.clickToday()"
 });
 formatter.result({
-  "duration": 787268500,
+  "duration": 674054700,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSD.getTemperature()"
 });
 formatter.result({
-  "duration": 1622449500,
+  "duration": 962671300,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSD.getMinTemp()"
 });
 formatter.result({
-  "duration": 212800,
+  "duration": 185900,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSD.getMaxTemp()"
 });
 formatter.result({
-  "duration": 164900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomePageSD.verifyMinTemp()"
-});
-formatter.result({
-  "duration": 108918500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomePageSD.verifyMaxTemp()"
-});
-formatter.result({
-  "duration": 190166200,
+  "duration": 154700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2217494100,
+  "duration": 1162769400,
   "status": "passed"
 });
 });

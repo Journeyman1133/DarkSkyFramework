@@ -53,15 +53,15 @@ public class HomePage extends ElementUtil {
         return tempListInt.get(11);
     }
 
-    public int verifyMin() {
-        WebElement lowtemp = BasePage.get().findElement(minTemp);
-        String lowTempStr = lowtemp.getText().substring(0, 2);
-        return Integer.parseInt(lowTempStr);
-    }
-
-    public int verifyMax() {
-        WebElement hightemp = BasePage.get().findElement(maxTemp);
-        String highTempStr = hightemp.getText().substring(0, 2);
-        return Integer.parseInt(highTempStr);
-    }
+//    public int verifyMin() {
+//        WebElement lowtemp = BasePage.get().findElement(minTemp);
+//        String lowTempStr = lowtemp.getText().substring(0, 2);
+//        return Integer.parseInt(lowTempStr);
+//    }
+//
+//    public int verifyMax() {
+//        WebElement hightemp = BasePage.get().findElement(maxTemp);
+//        String highTempStr = hightemp.getText().substring(0, 2);
+//        return Integer.parseInt(highTempStr);
+//    }
 }

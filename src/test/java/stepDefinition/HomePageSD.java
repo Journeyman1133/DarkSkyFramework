@@ -37,15 +37,15 @@ public class HomePageSD {
         System.out.println(homePage.maxTemp());
     }
 
-    @Then("^I verify min temperature on homepage$")
-    public void verifyMinTemp() {
-        boolean minResult = homePage.verifyMin() == homePage.minTemp();
-        Assert.assertFalse("Different values", minResult);
-    }
-
-    @Then("^I verify max temperature on homepage$")
-    public void verifyMaxTemp() {
-        boolean maxResult = homePage.verifyMax() == homePage.maxTemp();
-        Assert.assertFalse("Different values", maxResult);
-    }
+//    @Then("^I verify min temperature on homepage$")
+//    public void verifyMinTemp() {
+//        boolean minResult = homePage.verifyMin() == homePage.minTemp();
+//        Assert.assertFalse("Different values", minResult);
+//    }
+//
+//    @Then("^I verify max temperature on homepage$")
+//    public void verifyMaxTemp() {
+//        boolean maxResult = homePage.verifyMax() == homePage.maxTemp();
+//        Assert.assertFalse("Different values", maxResult);
+//    }
 }
